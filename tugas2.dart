@@ -1,4 +1,4 @@
-import 'dart:developer';
+
 import 'dart:io';
 
 void main () {
@@ -15,7 +15,7 @@ void main () {
   nilai_UTS = int.parse(stdin.readLineSync()??'0');
   stdout.write  ("nilai UAS: ");
    nilai_UAS = int.parse(stdin.readLineSync()??'0');
-   stdout.write  ("Persentase Kehadiran: ");
+   stdout.write  ("Persentase Kehadiran: ");                                                                                                             
   kehadiran = double.parse(stdin.readLineSync()?? '0');
 
    // mengihitung nilai rataq-rata
